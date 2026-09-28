@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glass Emporium | Handcrafted Glass for Every Space</title>
+  <meta name="description" content="Glass Emporium sells handcrafted vases, stained glass, drinkware and custom mirrors. Visit our showroom or order a custom piece.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a href="#top" class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Glass Emporium
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#craft">Our Craft</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#visit" class="btn btn-small">Visit Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Handcrafted since 1998</p>
+          <h1>Light, shaped by hand.</h1>
+          <p class="lead">
+            Vases, stained glass, drinkware and custom mirrors, blown and cut in our own studio.
+            Every piece is one of a kind, just like the space it lives in.
+          </p>
+          <div class="hero-actions">
+            <a href="#collections" class="btn">Shop Collections</a>
+            <a href="#visit" class="btn btn-ghost">Book a Custom Piece</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="pane pane-1"></div>
+          <div class="pane pane-2"></div>
+          <div class="pane pane-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="collections" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Collections</p>
+          <h2>Something for every shelf and window</h2>
+        </header>
+        <div class="cards">
+          <article class="card">
+            <div class="swatch swatch-vase"></div>
+            <h3>Art Vases</h3>
+            <p>Hand-blown vases in deep blues, ambers and smoky clears.</p>
+            <span class="price">From ₹1,800</span>
+          </article>
+          <article class="card">
+            <div class="swatch swatch-stained"></div>
+            <h3>Stained Glass</h3>
+            <p>Window panels and suncatchers that throw colour across a room.</p>
+            <span class="price">From ₹3,500</span>
+          </article>
+          <article class="card">
+            <div class="swatch swatch-drink"></div>
+            <h3>Drinkware</h3>
+            <p>Tumblers, carafes and wine glasses made for daily use.</p>
+            <span class="price">From ₹650</span>
+          </article>
+          <article class="card">
+            <div class="swatch swatch-mirror"></div>
+            <h3>Custom Mirrors</h3>
+            <p>Bevelled and framed mirrors cut to your exact size.</p>
+            <span class="price">Quote on request</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="craft" class="section section-tint">
+      <div class="container craft-grid">
+        <div>
+          <p class="eyebrow">Our Craft</p>
+          <h2>Made in our studio, not a factory</h2>
+          <p>
+            Our glassblowers work the furnace six days a week. You can watch them through the
+            showroom window, then take home a piece made that same morning.
+          </p>
+        </div>
+        <ul class="stats">
+          <li><strong>25+</strong><span>years at the furnace</span></li>
+          <li><strong>4,000+</strong><span>custom orders delivered</span></li>
+          <li><strong>100%</strong><span>made by hand</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="reviews" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Reviews</p>
+          <h2>What our customers say</h2>
+        </header>
+        <div class="quotes">
+          <blockquote>
+            <p>“The stained glass panel for our front door is the first thing every guest talks about.”</p>
+            <cite>Priya R.</cite>
+          </blockquote>
+          <blockquote>
+            <p>“Ordered a mirror in an odd size. It fit perfectly and arrived in three days.”</p>
+            <cite>Arjun M.</cite>
+          </blockquote>
+          <blockquote>
+            <p>“Watching them blow my vase was worth the trip alone.”</p>
+            <cite>Meera S.</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="visit" class="section cta">
+      <div class="container cta-box">
+        <div>
+          <h2>Come see it in the light</h2>
+          <p>Visit the showroom or tell us what you want made. We reply within one working day.</p>
+        </div>
+        <dl class="visit-info">
+          <div><dt>Address</dt><dd>12 Crystal Lane, Your City</dd></div>
+          <div><dt>Hours</dt><dd>Mon to Sat, 10am to 7pm</dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+910000000000">+91 00000 00000</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:hello@glassemporium.example">hello@glassemporium.example</a></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Glass Emporium</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
